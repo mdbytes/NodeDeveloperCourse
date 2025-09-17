@@ -1,0 +1,117 @@
+h1 {
+  color: grey;
+}
+
+.col.left-column {
+  width: 40%;
+  min-width: 300px;
+}
+
+.col.right-column {
+  width: 60%;
+  min-width: 300px;
+}
+
+.col-md-4.left-column {
+  padding: 2em;
+}
+
+.col-md-4.left-column h3 {
+  font-size: 500%;
+  font-weight: bolder;
+  color: #b37700;
+  text-align: center;
+}
+
+.col-md-7.right-column {
+  padding: 2em;
+  margin: 2em;
+
+  background-color: #ffffff;
+}
+
+#get-weather {
+  width: 30%;
+  margin-top: 5px;
+  margin-right: 35%;
+  margin-left: 35%;
+}
+
+#client-box {
+  width: 80%;
+  background-color: white;
+  margin-top: 75px;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 2em;
+  visibility: hidden;
+}
+
+#client-box-site {
+  width: 80%;
+  background-color: white;
+  margin-top: 20px;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.button {
+  background-color: #336699;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+#about-image {
+  width: 250px;
+  margin: 0 auto;
+}
+
+#about-image img {
+  width: 100%;
+  height: auto;
+}
+
+#home-image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#home-image img {
+  width: 100%;
+}
+
+.nav {
+  background-color: lightgrey !important;
+}
+
+a {
+  color: black;
+}
+
+.container-fluid {
+}
+
+main {
+  min-height: 80vh;
+  background-image: url("../images/home-page.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: lightgrey;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.8em;
+  font-size: 80%;
+  text-align: center;
+}
